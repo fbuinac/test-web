@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #d7d7d7;
+}
+
+.header {
+	background-color: darkslategray;
+	line-height: 60px;
+}
+
+.logo {
+	float: left;
+	margin: 5px 50px;
+}
+
+.navigation {
+	float: center;
+	width: 1200px;
+}
+
+.navigation a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: yellowgreen;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Kraj Header-a */
+
+.container-main {
+	width: 700px;
+	margin: auto;
+}
+
+#prvi, #drugi {
+	float: left;
+	margin: 10px 10px;
+	padding: 10px;
+	width: 300px;
+	background-color: #FFF;
+}
