@@ -3,6 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px) {
+.css-element {
+yourcsscode:;
+}
+   }
 	
 body {
 	background-color: #e9e8e8;
@@ -53,11 +60,16 @@ a {
 	margin: 0 auto;
 	vertical-align: middle;
 }
-	
+.wrapper-header {
+	max-width: 1300px;
+	margin: 10px auto;
+}
+
 
 .wrapper {
-    max-width: 1300px;
+	max-width: 1300px;
 	margin: 10px auto;
+	padding-bottom: 100px;
 }
 
 .clearfix:after {
@@ -81,7 +93,6 @@ a {
 	vertical-align: middle;
 }
 
-
 /* Nav menu ----------------------------------------------------------- */
 #main-nav ul {
 	width: 50%;
@@ -104,8 +115,7 @@ a {
 }
 
 #main-nav a:hover {
-	color: #058ED9;
-	transition: all .5s ease-out;
+	color: #ef233c;
 }
 
 
@@ -128,7 +138,7 @@ a {
 	text-align: center;
 }
 
-#intro article {
+#header article {
 	width:100%;
 	float:left;
 }
