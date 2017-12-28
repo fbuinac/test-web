@@ -3,13 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
-.css-element {
-yourcsscode:;
-}
-   }
 	
 body {
 	background-color: #e9e8e8;
@@ -38,7 +31,7 @@ a {
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.97);
 	width: 49%;
-	margin-right: 26px;
+	margin-right: 2%;
 	float: left;
 	border: 1px solid #e9e9ea;
 	border-radius: 5px;
@@ -64,7 +57,6 @@ a {
 	max-width: 1300px;
 	margin: 10px auto;
 }
-
 
 .wrapper {
 	max-width: 1300px;
@@ -98,13 +90,14 @@ a {
 	width: 50%;
 	float: left;
 	list-style-type: none;
-	padding-left: 9px;
+
+	/*padding-left: 9px;*/
 	padding-top: 10px;
 }
 
 #main-nav li {
 	display: inline;
-	margin-right: 40px;
+	margin-right: 6.2%;
 }
 
 #main-nav a {
